@@ -1,0 +1,125 @@
+/**
+ * file: style.css
+ * purpose: effects ...
+ **/
+
+body {
+	background-color: mediumorchid;
+    
+}
+
+article {
+	width: 26rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+font-size: 2rem;
+font-family: 'Indie Flower', cursive;
+/*animation*/ 
+animation-name: example;
+animation-duration: 7s;
+}
+
+#first {
+	width: 29rem;
+}
+
+#second{
+    
+    
+}
+
+
+#fig1{
+
+width:400px;
+margin-left: 0px;
+    
+}
+
+#lillebælt{
+width: 500px;  
+    
+}
+
+#lillebælt{
+animation-name:lillebælt;  
+animation-duration: 4s; 
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+}
+
+@keyframes lillebælt{
+	from{transform: translateX(-255px);}
+	to {transform: translateX(1350px);}    
+}
+
+
+
+
+#third{
+ 
+    
+    
+}
+
+
+#fourth{
+    
+    
+}
+
+.heart {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  animation: fave-heart 1s steps(28);
+}
+.heart:hover {
+  background-position: -2800px 0;
+  transition: background 1s steps(28);
+}
+@keyframes fave-heart {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2800px 0;
+  }
+}
+
+
+
+@keyframes example { 
+    from {
+background-color:pink;
+font-size: 2rem; 
+    }
+    to {
+        background-color: aqua;
+        font-size: 5rem;
+    }
+  
+  /*baggrund*/   
+
+}
+
+ @keyframes egonolsen{
+    from {background-color: red;}
+    to {background-color: yellow;}
+    
+  body {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: egonolsen;
+    animation-duration: 4s;
+}  
